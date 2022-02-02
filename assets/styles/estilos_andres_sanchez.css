@@ -1,0 +1,15 @@
+body {
+    background-color:black;
+}
+article {
+    color:rgb(255, 255, 255);
+}
+
+.resaltado  {
+    color:yellow;
+}
+
+#titulo_del_blog{
+    text-align: center;
+    font-size: 3rem;
+}
