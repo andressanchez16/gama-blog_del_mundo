@@ -1,0 +1,26 @@
+body {
+    background-color:black;
+}
+article {
+    color:rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-bottom: #FFFFFF 1px solid;
+}
+
+.resaltado  {
+    color:yellow;
+}
+
+#titulo_del_blog{
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+}
+
+.ilustracion{
+    border: white 4px solid;
+}
+
+#footer_blog{
+    padding: 2rem;
+}
