@@ -1,0 +1,67 @@
+/* Clases generales */
+
+body {
+    background-color:rgb(0, 0, 0);
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+article /* =aplica para todas las etiquetas */{
+    color:rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-bottom: #FFFFFF 1px solid;
+}
+
+#titulo_del_blog /* #=id */{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(255, 95, 31);
+}
+.subtitulos{
+    color: rgb(255, 95, 31);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Terminan las clases generales */
+
+/* barra de navegación */
+
+.resaltado /* .=class */ {
+    color:rgb(255, 133, 32);
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+/* Fin de barra de navegación */
+
+/* footer del blog */
+
+#footer_blog{
+    padding: 2rem;
+}
+
+footer{
+    color:#FFFFFF;
+}
+
+/* fin footer blog */
+
+/* ilustraciones */
+
+.ilustracion{
+    border: white 4px solid;
+    display: inline-block;
+}
+
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+/* Fin ilustraciones. */
