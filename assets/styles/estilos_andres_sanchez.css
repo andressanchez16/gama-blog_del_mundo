@@ -10,8 +10,8 @@ section {
     /* añade un espacio entre los elementos del grid de 3rem */
     gap: 3rem;
 }
-
 /* Termina grid */
+
 section>header {
     /* esta sección se extenderá 12 columnas. */
     grid-column: span 12;
@@ -35,11 +35,13 @@ section>footer {
 }
 
 /*indice*/
-nav>ul>li>a:hover{
-    color:#FFFFFF
-}
-
-nav{
+nav>ul{
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 0.5rem;
     font-size: 1.3rem;
 }
 /*fin de indice*/
@@ -47,8 +49,7 @@ nav{
 /* Clases generales */
 
 body {
-    background-color:rgb(0, 0, 0);
-    text-align:justify;
+    background-color:rgb(56, 56, 56);
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
@@ -62,42 +63,37 @@ article /* =aplica para todas las etiquetas */{
 #titulo_del_blog /* #=id */{
     text-align: center;
     font-size: 3rem;
-    color:red;
+    color: skyblue;
 }
 .subtitulos{
-    color: red;
+    color: skyblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.alineacion {
-    text-align:left;
 }
 /* Terminan las clases generales */
 
 /* barra de navegación */
 
 .resaltado /* .=class */ {
-    color:red;
+    color: skyblue;
 }
 
 nav>ul>li {
     list-style: none;
 }
 
-nav>ul>li>a {
-    text-decoration: none;
+nav>ul>li>a:hover {
+    color:#beff0d;
 }
 
 /* Fin de barra de navegación */
 
 /* footer del blog */
 
-#footer_blog{
+#footer_blog div:nth-child(2){
     padding: 2rem;
-}
-
-footer{
-    color:#FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
 }
 
 /* fin footer blog */
@@ -108,10 +104,42 @@ footer{
     border: white 4px solid;
     display: inline-block;
 }
-
-.ilustracion figcaption {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    font-style: italic;
-}
 /* Fin ilustraciones */
+
+article>header>hgroup {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+article>header>hgroup>h2 {
+    display: flex;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+aside div:nth-of-type(odd){
+    display: flex;
+    background-color: skyblue;
+    padding: 1rem;
+    text-align: justify;
+    align-items: center;
+    font-size: small;
+}
+
+aside div:nth-of-type(even){
+    display: flex;
+    background-color: rgb(87, 87, 87);
+    padding: 1rem;
+    text-align: justify;
+    align-items: center;
+    font-size: small;
+}
+
+aside div {
+    display: flex;
+    align-items: center;
+}
+
