@@ -78,8 +78,14 @@ article /* =aplica para todas las etiquetas */{
 }
 
 nav>ul>li {
-    list-style: none;
+    list-style: none;    
 }
+
+nav>ul>li>a {
+    list-style: none;    
+    text-decoration: none;
+}
+
 
 nav>ul>li>a:hover {
     color:#beff0d;
@@ -143,3 +149,16 @@ aside div {
     align-items: center;
 }
 
+.espacio {
+    padding-right: 1rem;
+}
+
+
+/*aside div img {*/
+    /* la imagen tendrá color de fondo blanco */
+    /*background-color: #fff;*/
+    /* habrá un espacio entre el borde y el contenido de 0.5rem */
+    /*padding: 0.5rem;*/
+    /* redondea el borde para que sea un círculo */
+    /*border-radius: 50%;*/
+/*}*/
