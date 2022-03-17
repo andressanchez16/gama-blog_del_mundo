@@ -111,15 +111,15 @@ nav>ul{
 /* Clases generales */
 
 body {
-    background-color:rgb(56, 56, 56);
+    background-color:rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: #787479;
 }
 article /* =aplica para todas las etiquetas */{
     background-color: rgb(87, 87, 87);
     color:rgb(255, 255, 255);
     padding: 1.5rem;
-    border-bottom: #FFFFFF 1px solid;
+    border-bottom: #070707 1px solid;
 }
 
 #titulo_del_blog /* #=id */{
@@ -144,7 +144,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a:hover {
-    color:#beff0d;
+    color:#0dff86;
 }
 
 /* Fin de barra de navegación */
@@ -163,7 +163,7 @@ nav>ul>li>a:hover {
 /* ilustraciones */
 
 .ilustracion{
-    border: white 4px solid;
+    border: rgb(0, 0, 0) 4px solid;
     display: inline-block;
 }
 /* Fin ilustraciones */
@@ -184,7 +184,7 @@ article>header>hgroup>h2 {
 
 aside div:nth-of-type(odd){
     display: flex;
-    background-color: skyblue;
+    background-color: rgb(2, 40, 255);
     padding: 1rem;
     text-align: justify;
     align-items: center;
@@ -193,7 +193,7 @@ aside div:nth-of-type(odd){
 
 aside div:nth-of-type(even){
     display: flex;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(102, 100, 100);
     padding: 1rem;
     text-align: justify;
     align-items: center;
